@@ -53,10 +53,6 @@ Para o funcionamento correto do projeto **DemoPayStone**, é necessário configu
 
 Adicione os seguintes `intent-filters` no arquivo `AndroidManifest.xml`:
 
-
-Aqui está o conteúdo sugerido para o seu arquivo README.md no repositório DemoPayStone. Ele explica o funcionamento do projeto e como configurar os intent-filters no AndroidManifest.xml para funcionar corretamente:
-
-markdown
 Copiar código
 # DemoPayStone
 
