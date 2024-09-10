@@ -1,5 +1,7 @@
 # DemoPayStone
 
+**Obs:** Desenvolvido e testado com Delphi 12
+
 **DemoPayStone** é um projeto de demonstração para integração com a API de pagamentos e cancelamentos da **Stone** utilizando **DeepLink**. Este projeto foi desenvolvido com **Delphi FireMonkey** para Android, demonstrando a implementação de operações de pagamento e cancelamento através de intents.
 
 # Doc: https://sdkandroid.stone.com.br/reference/explicacao-deeplink
