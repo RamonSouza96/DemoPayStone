@@ -1,0 +1,103 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 800
+  ClientWidth = 400
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Margins.Bottom = 20.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 524.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 356.000000000000000000
+    Viewport.Height = 520.000000000000000000
+  end
+  object Text1: TText
+    Align = Top
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Position.X = 20.000000000000000000
+    Position.Y = 66.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'RETORNO:'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.HorzAlign = Leading
+  end
+  object BtnPagamento: TButton
+    Align = Top
+    Size.Width = 400.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Pagamento'
+    TextSettings.Trimming = None
+    OnClick = BtnPagamentoClick
+  end
+  object Layout1: TLayout
+    Align = Bottom
+    Position.Y = 640.000000000000000000
+    Size.Width = 400.000000000000000000
+    Size.Height = 160.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object BtnCancelamento: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 85.000000000000000000
+      Size.Width = 380.000000000000000000
+      Size.Height = 56.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Cancelar Pagamento Stone'
+      TextSettings.Trimming = None
+      OnClick = BtnCancelamentoClick
+    end
+    object Label1: TLabel
+      Align = MostTop
+      StyledSettings = [Family, FontColor]
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 380.000000000000000000
+      Size.Height = 31.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.VertAlign = Leading
+      Text = 'Codigo ATK'
+      TabOrder = 1
+    end
+    object EdtCodigoAtk: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 2
+      Position.X = 10.000000000000000000
+      Position.Y = 42.000000000000000000
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 1.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 380.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end
