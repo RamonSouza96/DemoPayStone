@@ -124,7 +124,7 @@ Adicione os seguintes `intent-filters` no arquivo `AndroidManifest.xml`:
     <category android:name="android.intent.category.BROWSABLE" />
     <data android:host="cancel" android:scheme="AppCancel" />
 </intent-filter>
-
+```
 ** Explicação dos Intent Filters **
 O primeiro intent-filter processa as respostas de pagamento (pay-response) com o esquema AppPay.
 O segundo intent-filter processa os cancelamentos de transações (cancel) com o esquema AppCancel.
